@@ -2,7 +2,7 @@
 // CONFIGURATION
 // ===================================
 
-const DEBUG_MODE = true; // Set to true to unlock all gifts for testing
+const DEBUG_MODE = false; // Set to true to unlock all gifts for testing
 
 const GIFT_CONTENT = {
     rose: {
@@ -424,4 +424,5 @@ window.addEventListener('load', () => {
         }, 1000);
     }, 3000);
 });
+
 
