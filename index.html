@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#31243f">
+    <title>Valentine's Week Journey | A Gift for You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="valentines.css">
+</head>
+<body>
+    <body>
+    <body>
+    <body>
+<!-- Clean Artistic Bouquet -->
+<div class="bouquet-wrapper">
+    <!-- Bouquet Base -->
+    <svg class="bouquet-svg" viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
+        
+        <!-- Gradients MUST be defined first -->
+        <defs>
+            <!-- Petal Gradients -->
+            <radialGradient id="petalOuter">
+                <stop offset="0%" stop-color="#FF6B9D" />
+                <stop offset="50%" stop-color="#DC143C" />
+                <stop offset="100%" stop-color="#B22234" />
+            </radialGradient>
+            
+            <radialGradient id="petalMiddle">
+                <stop offset="0%" stop-color="#DC143C" />
+                <stop offset="50%" stop-color="#C41E3A" />
+                <stop offset="100%" stop-color="#A0111E" />
+            </radialGradient>
+            
+            <radialGradient id="petalInner">
+                <stop offset="0%" stop-color="#C41E3A" />
+                <stop offset="100%" stop-color="#8B0000" />
+            </radialGradient>
+            
+            <radialGradient id="roseCenter">
+                <stop offset="0%" stop-color="#8B0000" />
+                <stop offset="100%" stop-color="#5C0000" />
+            </radialGradient>
+            
+            <linearGradient id="stemGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#4a7c2c" />
+                <stop offset="50%" stop-color="#2d5016" />
+                <stop offset="100%" stop-color="#3d6b2c" />
+            </linearGradient>
+            
+            <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#5d8c3e" />
+                <stop offset="100%" stop-color="#3d6b2c" />
+            </linearGradient>
+            
+            <linearGradient id="wrapGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#f0d5e0" />
+                <stop offset="50%" stop-color="#e8c5d4" />
+                <stop offset="100%" stop-color="#f0d5e0" />
+            </linearGradient>
+            
+            <linearGradient id="wrapFold1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#d4a5b8" />
+                <stop offset="100%" stop-color="#e8c5d4" />
+            </linearGradient>
+            
+            <linearGradient id="wrapFold2" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#e8c5d4" />
+                <stop offset="100%" stop-color="#d4a5b8" />
+            </linearGradient>
+            
+            <linearGradient id="ribbonGradient">
+                <stop offset="0%" stop-color="#9fa764" />
+                <stop offset="50%" stop-color="#e3e98d" />
+                <stop offset="100%" stop-color="#9fa764" />
+            </linearGradient>
+            
+            <radialGradient id="bowGradient">
+                <stop offset="0%" stop-color="#e3e98d" />
+                <stop offset="100%" stop-color="#9fa764" />
+            </radialGradient>
+        </defs>
+        
+        <!-- Stems (draw first, behind roses) -->
+        <line x1="150" y1="110" x2="150" y2="260" stroke="url(#stemGradient)" stroke-width="5" stroke-linecap="round" class="stem" opacity="0"/>
+        <line x1="120" y1="130" x2="125" y2="255" stroke="url(#stemGradient)" stroke-width="4" stroke-linecap="round" class="stem" opacity="0"/>
+        <line x1="180" y1="130" x2="175" y2="255" stroke="url(#stemGradient)" stroke-width="4" stroke-linecap="round" class="stem" opacity="0"/>
+        <line x1="105" y1="155" x2="118" y2="250" stroke="url(#stemGradient)" stroke-width="3.5" stroke-linecap="round" class="stem" opacity="0"/>
+        <line x1="195" y1="155" x2="182" y2="250" stroke="url(#stemGradient)" stroke-width="3.5" stroke-linecap="round" class="stem" opacity="0"/>
+        
+        <!-- Leaves -->
+        <ellipse cx="130" cy="220" rx="12" ry="20" fill="url(#leafGradient)" transform="rotate(-30 130 220)" class="leaf" opacity="0"/>
+        <ellipse cx="170" cy="220" rx="12" ry="20" fill="url(#leafGradient)" transform="rotate(30 170 220)" class="leaf" opacity="0"/>
+        <ellipse cx="150" cy="210" rx="12" ry="20" fill="url(#leafGradient)" transform="rotate(0 150 210)" class="leaf" opacity="0"/>
+        
+        <!-- CENTER ROSE (Simplified but beautiful) -->
+        <g class="rose rose-center" opacity="0">
+            <!-- Outer petals -->
+            <circle cx="150" cy="110" r="22" fill="url(#petalOuter)"/>
+            <ellipse cx="135" cy="100" rx="10" ry="15" fill="url(#petalOuter)" transform="rotate(-30 135 100)"/>
+            <ellipse cx="165" cy="100" rx="10" ry="15" fill="url(#petalOuter)" transform="rotate(30 165 100)"/>
+            <ellipse cx="140" cy="120" rx="10" ry="15" fill="url(#petalOuter)" transform="rotate(-60 140 120)"/>
+            <ellipse cx="160" cy="120" rx="10" ry="15" fill="url(#petalOuter)" transform="rotate(60 160 120)"/>
+            
+            <!-- Middle layer -->
+            <circle cx="150" cy="110" r="14" fill="url(#petalMiddle)"/>
+            
+            <!-- Inner layer -->
+            <circle cx="150" cy="110" r="8" fill="url(#petalInner)"/>
+            
+            <!-- Center -->
+            <circle cx="150" cy="110" r="4" fill="url(#roseCenter)"/>
+            <circle cx="148" cy="108" r="2" fill="#FF4D6D" opacity="0.6"/>
+        </g>
+        
+        <!-- LEFT ROSE -->
+        <g class="rose rose-left" opacity="0">
+            <circle cx="120" cy="130" r="20" fill="url(#petalOuter)"/>
+            <ellipse cx="108" cy="122" rx="9" ry="13" fill="url(#petalOuter)" transform="rotate(-30 108 122)"/>
+            <ellipse cx="132" cy="122" rx="9" ry="13" fill="url(#petalOuter)" transform="rotate(30 132 122)"/>
+            <ellipse cx="112" cy="138" rx="9" ry="13" fill="url(#petalOuter)" transform="rotate(-60 112 138)"/>
+            <ellipse cx="128" cy="138" rx="9" ry="13" fill="url(#petalOuter)" transform="rotate(60 128 138)"/>
+            
+            <circle cx="120" cy="130" r="12" fill="url(#petalMiddle)"/>
+            <circle cx="120" cy="130" r="7" fill="url(#petalInner)"/>
+            <circle cx="120" cy="130" r="3.5" fill="url(#roseCenter)"/>
+            <circle cx="118" cy="128" r="1.5" fill="#FF4D6D" opacity="0.6"/>
+        </g>
+        
+        <!-- RIGHT ROSE -->
+        <g class="rose rose-right" opacity="0">
+            <circle cx="180" cy="130" r="20" fill="url(#petalOuter)"/>
+            <ellipse cx="168" cy="122" rx="9" ry="13" fill="url(#petalOuter)" transform="rotate(-30 168 122)"/>
+            <ellipse cx="192" cy="122" rx="9" ry="13" fill="url(#petalOuter)" transform="rotate(30 192 122)"/>
+            <ellipse cx="172" cy="138" rx="9" ry="13" fill="url(#petalOuter)" transform="rotate(-60 172 138)"/>
+            <ellipse cx="188" cy="138" rx="9" ry="13" fill="url(#petalOuter)" transform="rotate(60 188 138)"/>
+            
+            <circle cx="180" cy="130" r="12" fill="url(#petalMiddle)"/>
+            <circle cx="180" cy="130" r="7" fill="url(#petalInner)"/>
+            <circle cx="180" cy="130" r="3.5" fill="url(#roseCenter)"/>
+            <circle cx="178" cy="128" r="1.5" fill="#FF4D6D" opacity="0.6"/>
+        </g>
+        
+        <!-- BOTTOM LEFT ROSE -->
+        <g class="rose rose-bottom-left" opacity="0">
+            <circle cx="105" cy="155" r="18" fill="url(#petalOuter)"/>
+            <ellipse cx="94" cy="148" rx="8" ry="12" fill="url(#petalOuter)" transform="rotate(-30 94 148)"/>
+            <ellipse cx="116" cy="148" rx="8" ry="12" fill="url(#petalOuter)" transform="rotate(30 116 148)"/>
+            <ellipse cx="98" cy="162" rx="8" ry="12" fill="url(#petalOuter)" transform="rotate(-60 98 162)"/>
+            <ellipse cx="112" cy="162" rx="8" ry="12" fill="url(#petalOuter)" transform="rotate(60 112 162)"/>
+            
+            <circle cx="105" cy="155" r="11" fill="url(#petalMiddle)"/>
+            <circle cx="105" cy="155" r="6" fill="url(#petalInner)"/>
+            <circle cx="105" cy="155" r="3" fill="url(#roseCenter)"/>
+            <circle cx="103" cy="153" r="1.3" fill="#FF4D6D" opacity="0.6"/>
+        </g>
+        
+        <!-- BOTTOM RIGHT ROSE -->
+        <g class="rose rose-bottom-right" opacity="0">
+            <circle cx="195" cy="155" r="18" fill="url(#petalOuter)"/>
+            <ellipse cx="184" cy="148" rx="8" ry="12" fill="url(#petalOuter)" transform="rotate(-30 184 148)"/>
+            <ellipse cx="206" cy="148" rx="8" ry="12" fill="url(#petalOuter)" transform="rotate(30 206 148)"/>
+            <ellipse cx="188" cy="162" rx="8" ry="12" fill="url(#petalOuter)" transform="rotate(-60 188 162)"/>
+            <ellipse cx="202" cy="162" rx="8" ry="12" fill="url(#petalOuter)" transform="rotate(60 202 162)"/>
+            
+            <circle cx="195" cy="155" r="11" fill="url(#petalMiddle)"/>
+            <circle cx="195" cy="155" r="6" fill="url(#petalInner)"/>
+            <circle cx="195" cy="155" r="3" fill="url(#roseCenter)"/>
+            <circle cx="193" cy="153" r="1.3" fill="#FF4D6D" opacity="0.6"/>
+        </g>
+        
+        <!-- Wrapping Paper -->
+        <g class="wrap-group">
+            <path d="M 120 250 L 100 350 L 200 350 L 180 250 Z" fill="url(#wrapGradient)" opacity="0"/>
+            <path d="M 120 250 L 110 270 L 110 350 L 150 350 Z" fill="url(#wrapFold1)" opacity="0"/>
+            <path d="M 180 250 L 190 270 L 190 350 L 150 350 Z" fill="url(#wrapFold2)" opacity="0"/>
+            
+            <!-- Ribbon -->
+            <rect x="90" y="270" width="120" height="12" rx="2" fill="url(#ribbonGradient)" opacity="0"/>
+            <circle cx="150" cy="276" r="18" fill="url(#bowGradient)" opacity="0"/>
+            <ellipse cx="135" cy="276" rx="15" ry="8" fill="url(#bowGradient)" opacity="0"/>
+            <ellipse cx="165" cy="276" rx="15" ry="8" fill="url(#bowGradient)" opacity="0"/>
+        </g>
+    </svg>
+</div>
+
+    <div class="background-scene">
+        <svg class="butterfly butterfly-1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 50 Q30 30 20 50 Q30 70 50 50 Q70 30 80 50 Q70 70 50 50" fill="#9fa764" opacity="0.6"/>
+            <circle cx="50" cy="50" r="3" fill="#31243f"/>
+        </svg>
+        <svg class="butterfly butterfly-2" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 50 Q30 30 20 50 Q30 70 50 50 Q70 30 80 50 Q70 70 50 50" fill="#613c4e" opacity="0.5"/>
+            <circle cx="50" cy="50" r="3" fill="#31243f"/>
+        </svg>
+        <svg class="butterfly butterfly-3" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 50 Q30 30 20 50 Q30 70 50 50 Q70 30 80 50 Q70 70 50 50" fill="#d9d8d0" opacity="0.4"/>
+            <circle cx="50" cy="50" r="3" fill="#31243f"/>
+        </svg>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container" id="gridView">
+        <header class="header">
+            <h1 class="main-title">A Valentine's Week Journey</h1>
+            <p class="subtitle">Seven Days • Seven Gifts • One Eternal promise</p>
+            <p class="date-display" id="currentDate"></p>
+        </header>
+
+        <main class="gift-timeline">
+            <!-- Rose Day - Feb 7 -->
+            <div class="gift-day" data-day="rose" data-date="2026-02-07">
+                <div class="day-badge">
+                    <span class="day-number">Day 1</span>
+                    <span class="day-date">February 7th</span>
+                </div>
+                <div class="day-content">
+                    <div class="day-info">
+                        <div class="day-icon">🌹</div>
+                        <div class="day-text">
+                            <h3 class="day-title">Rose Day</h3>
+                            <p class="day-description">A symbol of eternal love and devotion</p>
+                        </div>
+                    </div>
+                    <div class="day-image-preview">
+                        <div class="gift-wrap-overlay">
+                            <div class="ribbon ribbon-vertical"></div>
+                            <div class="ribbon ribbon-horizontal"></div>
+                            <div class="gift-bow">🎀</div>
+                        </div>
+                        <img src="4.jpeg" alt="Rose Day" class="preview-image">
+                    </div>
+                </div>
+                <div class="day-status">
+                    <span class="status-badge"></span>
+                </div>
+            </div>
+
+            <!-- Propose Day - Feb 8 -->
+            <div class="gift-day" data-day="propose" data-date="2026-02-08">
+                <div class="day-badge">
+                    <span class="day-number">Day 2</span>
+                    <span class="day-date">February 8th</span>
+                </div>
+                <div class="day-content">
+                    <div class="day-info">
+                        <div class="day-icon">💍</div>
+                        <div class="day-text">
+                            <h3 class="day-title">Propose Day</h3>
+                            <p class="day-description">A question from the heart</p>
+                        </div>
+                    </div>
+                    <div class="day-image-preview">
+                        <div class="gift-wrap-overlay">
+                            <div class="ribbon ribbon-vertical"></div>
+                            <div class="ribbon ribbon-horizontal"></div>
+                            <div class="gift-bow">🎀</div>
+                        </div>
+                        <img src="1.jpeg" alt="Propose Day" class="preview-image">
+                    </div>
+                </div>
+                <div class="day-status">
+                    <span class="status-badge"></span>
+                </div>
+            </div>
+
+            <!-- Chocolate Day - Feb 9 -->
+            <div class="gift-day" data-day="chocolate" data-date="2026-02-09">
+                <div class="day-badge">
+                    <span class="day-number">Day 3</span>
+                    <span class="day-date">February 9th</span>
+                </div>
+                <div class="day-content">
+                    <div class="day-info">
+                        <div class="day-icon">🍫</div>
+                        <div class="day-text">
+                            <h3 class="day-title">Chocolate Day</h3>
+                            <p class="day-description">Sweetness in every moment</p>
+                        </div>
+                    </div>
+                    <div class="day-image-preview">
+                        <div class="gift-wrap-overlay">
+                            <div class="ribbon ribbon-vertical"></div>
+                            <div class="ribbon ribbon-horizontal"></div>
+                            <div class="gift-bow">🎀</div>
+                        </div>
+                        <img src="5.jpeg" alt="Chocolate Day" class="preview-image">
+                    </div>
+                </div>
+                <div class="day-status">
+                    <span class="status-badge"></span>
+                </div>
+            </div>
+
+            <!-- Teddy Day - Feb 10 -->
+            <div class="gift-day" data-day="teddy" data-date="2026-02-10">
+                <div class="day-badge">
+                    <span class="day-number">Day 4</span>
+                    <span class="day-date">February 10th</span>
+                </div>
+                <div class="day-content">
+                    <div class="day-info">
+                        <div class="day-icon">🧸</div>
+                        <div class="day-text">
+                            <h3 class="day-title">Teddy Day</h3>
+                            <p class="day-description">A hug that lasts forever</p>
+                        </div>
+                    </div>
+                    <div class="day-image-preview">
+                        <div class="gift-wrap-overlay">
+                            <div class="ribbon ribbon-vertical"></div>
+                            <div class="ribbon ribbon-horizontal"></div>
+                            <div class="gift-bow">🎀</div>
+                        </div>
+                        <img src="3.jpeg" alt="Teddy Day" class="preview-image">
+                    </div>
+                </div>
+                <div class="day-status">
+                    <span class="status-badge"></span>
+                </div>
+            </div>
+
+            <!-- Promise Day - Feb 11 -->
+            <div class="gift-day" data-day="promise" data-date="2026-02-11">
+                <div class="day-badge">
+                    <span class="day-number">Day 5</span>
+                    <span class="day-date">February 11th</span>
+                </div>
+                <div class="day-content">
+                    <div class="day-info">
+                        <div class="day-icon">🤝</div>
+                        <div class="day-text">
+                            <h3 class="day-title">Promise Day</h3>
+                            <p class="day-description">Vows written in starlight</p>
+                        </div>
+                    </div>
+                    <div class="day-image-preview">
+                        <div class="gift-wrap-overlay">
+                            <div class="ribbon ribbon-vertical"></div>
+                            <div class="ribbon ribbon-horizontal"></div>
+                            <div class="gift-bow">🎀</div>
+                        </div>
+                        <img src="6.jpeg" alt="Promise Day" class="preview-image">
+                    </div>
+                </div>
+                <div class="day-status">
+                    <span class="status-badge"></span>
+                </div>
+            </div>
+
+            <!-- Hug Day - Feb 12 -->
+            <div class="gift-day" data-day="hug" data-date="2026-02-12">
+                <div class="day-badge">
+                    <span class="day-number">Day 6</span>
+                    <span class="day-date">February 12th</span>
+                </div>
+                <div class="day-content">
+                    <div class="day-info">
+                        <div class="day-icon">🤗</div>
+                        <div class="day-text">
+                            <h3 class="day-title">Hug Day</h3>
+                            <p class="day-description">The language of comfort</p>
+                        </div>
+                    </div>
+                    <div class="day-image-preview">
+                        <div class="gift-wrap-overlay">
+                            <div class="ribbon ribbon-vertical"></div>
+                            <div class="ribbon ribbon-horizontal"></div>
+                            <div class="gift-bow">🎀</div>
+                        </div>
+                        <img src="7.jpeg" alt="Hug Day" class="preview-image">
+                    </div>
+                </div>
+                <div class="day-status">
+                    <span class="status-badge"></span>
+                </div>
+            </div>
+
+            <!-- Kiss Day - Feb 13 -->
+            <div class="gift-day" data-day="kiss" data-date="2026-02-13">
+                <div class="day-badge">
+                    <span class="day-number">Day 7</span>
+                    <span class="day-date">February 13th</span>
+                </div>
+                <div class="day-content">
+                    <div class="day-info">
+                        <div class="day-icon">💋</div>
+                        <div class="day-text">
+                            <h3 class="day-title">Kiss Day</h3>
+                            <p class="day-description">Where words fail</p>
+                        </div>
+                    </div>
+                    <div class="day-image-preview">
+                        <div class="gift-wrap-overlay">
+                            <div class="ribbon ribbon-vertical"></div>
+                            <div class="ribbon ribbon-horizontal"></div>
+                            <div class="gift-bow">🎀</div>
+                        </div>
+                        <img src="2.jpeg" alt="Kiss Day" class="preview-image">
+                    </div>
+                </div>
+                <div class="day-status">
+                    <span class="status-badge"></span>
+                </div>
+            </div>
+
+            <!-- Valentine's Day - Feb 14 -->
+            <div class="gift-day valentine-special" data-day="valentine" data-date="2026-02-14">
+                <div class="day-badge special">
+                    <span class="day-number">Day 8</span>
+                    <span class="day-date">February 14th</span>
+                </div>
+                <div class="day-content">
+                    <div class="day-info">
+                        <div class="day-icon special">❤️</div>
+                        <div class="day-text">
+                            <h3 class="day-title special">Valentine's Day</h3>
+                            <p class="day-description">The culmination of love</p>
+                        </div>
+                    </div>
+                    <div class="day-image-preview">
+                        <div class="gift-wrap-overlay special">
+                            <div class="ribbon ribbon-vertical"></div>
+                            <div class="ribbon ribbon-horizontal"></div>
+                            <div class="gift-bow">🎀</div>
+                        </div>
+                        <img src="photo22.jpeg" alt="Valentine's Day" class="preview-image">
+                    </div>
+                </div>
+                <div class="day-status">
+                    <span class="status-badge"></span>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="made-with-love">
+                Made with 💜 for <strong>Shrutika Nandkumar Kharade Santoshi</strong>
+            </p>
+            <a href="https://shruti22.vercel.app/" target="_blank" class="flower-button" title="Visit My Other Project">
+                <span class="flower-icon">🌸</span>
+                <span class="flower-text"> Birthday 22 </span>
+            </a>
+        </footer>
+    </div>
+
+    <!-- Curtain Transition -->
+    <div class="curtain-container" id="curtainContainer">
+        <div class="curtain curtain-left"></div>
+        <div class="curtain curtain-right"></div>
+    </div>
+
+    <!-- Stage Overlay -->
+    <div class="stage-overlay" id="stageOverlay">
+        <button class="close-stage" id="closeStage">
+            <span>✕</span>
+        </button>
+        
+        <div class="stage-content" id="stageContent">
+            <!-- Dynamic content will be injected here -->
+        </div>
+    </div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <script src="valentines.js"></script>
+</body>
+</html>
