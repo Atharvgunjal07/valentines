@@ -47,8 +47,10 @@ const GIFT_CONTENT = {
         title: "Teddy Day",
         subtitle: "A Hug That Lasts Forever",
         letter: `
-            <p> From your forever teddy, a very happy teddy day to you. I can't rn physcially give you one but you always have me yk that right?
+            <p>From your forever teddy, a very happy teddy day to you. I can't rn physcially give you one but you always have me yk that right?
             you can squeeze, stroke and bounce on me anytime you want! hahah and the best part this teddy comes with lifetime gurantee + a super natural vbrator ( haha ) 
+            If you could be here physically rn I would just not leave you until I smeel like you, you are what makes everything worth it, like a small child hugs his teddy 
+            and sleeps in the night I need you the same, with you tucked in me and giving the comfort of a true home. Please hug me asap. SOS call. 
             Love you and a happ teddy day to my Kuskisaurus </p>
         
         `,
@@ -60,8 +62,10 @@ const GIFT_CONTENT = {
         letter: `
             <p> Well on this promise day, I promise you that I will always keep on try to be better for you, 
             be conistent in my actions resonating with my words and promises, promise to be the best supporter, always help you in
-            your passions & aspirations. I promise to be your safe heaven, your shelter in the storm, your constant source of strength and Love. 
-            also promsie for the best sex sessions hahaha 
+            your passions & aspirations. I promise to be your safe heaven, your shelter in the storm, your constant source of strength and Love. I promise to nerver let go of your hand 
+            even when everything seems dark and hope lost, I even in times when will surely doubt myself promise to trust you and walk with you even when life tests me and us to the utmost 
+            limits, knowing not everything but knowing that in the turmoil I have you with me, hand in hand. That is my promise...to even when uncertainity rains be certain that I will be at your side. 
+           ( also promsie for the best sex sessions hahaha )
             Love you always</p>
            
         `,
@@ -424,5 +428,6 @@ window.addEventListener('load', () => {
         }, 1000);
     }, 3000);
 });
+
 
 
