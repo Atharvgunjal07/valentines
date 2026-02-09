@@ -54,7 +54,7 @@ const GIFT_CONTENT = {
             Love you and a happ teddy day to my Kuskisaurus </p>
         
         `,
-        imageUrl: "photo25.jpeg"
+        imageUrl: "photo25.jpg"
     },
     promise: {
         title: "Promise Day",
@@ -428,6 +428,7 @@ window.addEventListener('load', () => {
         }, 1000);
     }, 3000);
 });
+
 
 
 
