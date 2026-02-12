@@ -95,7 +95,7 @@ const GIFT_CONTENT = {
             Love you </p>
            
         `,
-        imageUrl: "12.jpg"
+        imageUrl: "12.JPG"
     },
     valentine: {
         title: "Valentine's Day",
@@ -428,6 +428,7 @@ window.addEventListener('load', () => {
         }, 1000);
     }, 3000);
 });
+
 
 
 
