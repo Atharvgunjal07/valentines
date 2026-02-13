@@ -102,11 +102,15 @@ const GIFT_CONTENT = {
         subtitle: "The Culmination of Love",
         letter: `
             <p>My dearest Shrutika,
-            I LOVE YOU and a happy valentine's day to you, my kuskisaurus and my best friend. 
-            no amount of words can describe how much I am grateful to have you in my life. 
-            You are my everything, a beacon of hope in dark times and always the one I turn to when I need strength. 
-            Love you more then anything in this world. 
-           
+           You are my anchor and my compass—a luminous beacon piercing through the darkness, the first soul I seek when I need fortitude. I find myself in awe of how our journey has unfolded, cultivating within me an enduring sense of hope that has transformed my very being. I've grown calmer, more centered, as though I've been reborn with a clearer perspective on life itself.
+
+Through every experience we've shared—whether joyous or challenging, at TPC, throughout college, or during those turbulent periods—what mattered most was simply having you beside me. When you helped me confront my deepest personal struggles, the familial burdens and societal stigmas that haunted my mind and soul, you illuminated a path I didn't know existed. Perhaps unknowingly, you've taught me to love myself, my parents, and those around me in a healthier, more authentic way.
+
+Yes, we've had our disagreements, and undoubtedly we'll have more. Yet through every argument, every day of silence between us, nothing could diminish my desire to have you in my life. When I'm alone on a train, removing or fastening my helmet, waking to greet the day or surrendering to sleep—in every solitary moment, you are the thought that fills my consciousness. You are, without question, the most extraordinary thing that has ever happened to me.
+
+You've shown me that I hold the answers to the questions I pose myself, and you remain the guiding light that helps me find them. The grace with which you navigate your family, our relationship, and your responsibilities is something I deeply admire. I promise to be your steadfast listener and companion throughout this journey we call life.
+
+I love you more than anything this world has to offer. I is you and you is me. my dearest kuskisaurus ( the most beautuful face and voice in the entire universe ) .
         `,
         imageUrl: "9.jpeg"
     }
@@ -117,6 +121,8 @@ const GIFT_CONTENT = {
 // ===================================
 
 let currentDay = null;
+
+
 const today = new Date();
 
 // ===================================
@@ -428,6 +434,7 @@ window.addEventListener('load', () => {
         }, 1000);
     }, 3000);
 });
+
 
 
 
